@@ -109,6 +109,7 @@ class _InputPageState extends State<InputPage> {
                     Row(
                       mainAxisAlignment: MainAxisAlignment.center,
                       crossAxisAlignment: CrossAxisAlignment.baseline,
+                      textBaseline: TextBaseline.alphabetic,
                       children: [
                         Text(
                           height.toString(),
@@ -160,6 +161,7 @@ class _InputPageState extends State<InputPage> {
                         ),
                         Row(
                           crossAxisAlignment: CrossAxisAlignment.baseline,
+                          textBaseline: TextBaseline.alphabetic,
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: [
                             Text(
